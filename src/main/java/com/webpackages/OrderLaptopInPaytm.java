@@ -98,7 +98,7 @@ public class OrderLaptopInPaytm extends DriverFactory {
 	@FindBy(how = How.XPATH, using = "//div[@class='_3pg_']")
 	WebElement cartIcon;
 
-	@FindBy(how = How.XPATH, using = "//div[@class = '_39Hp uvTc']")
+	@FindBy(how = How.XPATH, using = "//div[contains(@class, '_39Hp')]")
 	WebElement cartValue;
 
 	@FindBy(how = How.XPATH, using = "//a[@class='_2Y-B']/i")
